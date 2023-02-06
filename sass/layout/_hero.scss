@@ -4,8 +4,7 @@
   text-align: center;
   margin: auto;
 
-  background-color: var(--bg-dark-color);
-  background-image: var(--hero-gradient), url(./images/hero/hero.jpg);
+  background-color: var(--bg-dark-color), url(../images/studio/hero/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
