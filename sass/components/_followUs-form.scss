@@ -1,0 +1,37 @@
+/*footer-form*/
+
+.followUs-form__input {
+  width: 358px;
+  height: 50px;
+  padding: 0 16px;
+  margin-right: 12px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: var(--footer-contacts-color);
+  background-color: transparent;
+
+  border: 1px solid var(--followUs-form-input-border-color);
+  border-radius: 4px;
+  filter: drop-shadow(var(--action-btn-shadow));
+  transition: border var(--main-animation);
+
+  &::placeholder {
+    font-size: 16px;
+    /*line-height: 1.25;          for firefox placeholder vertical aligning*/
+    letter-spacing: 0.03em;
+    color: var(--footer-contacts-color);
+  }
+
+  &:focus {
+    outline: var(--accent-color);
+    border: 1px solid var(--accent-color);
+  }
+}
+
+.followUs-form__icon {
+  margin-left: 10px;
+  fill: var(--main-light-color);
+  background-image: url(/images/icons/icons.svg#send-btn);
+}
